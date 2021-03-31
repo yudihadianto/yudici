@@ -1,0 +1,68 @@
+CRITICAL - 2021-03-27 09:44:14 --> Cannot redeclare App\Controllers\Pages::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-27 11:31:04 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ')'
+#0 /opt/lampp/htdocs/yudici/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/yudici/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(905): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(429): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/yudici/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 11:37:02 --> Undefined variable: title
+#0 /opt/lampp/htdocs/yudici/app/Views/layout/header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 11, Array)
+#1 /opt/lampp/htdocs/yudici/system/View/View.php(220): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/yudici/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/yudici/system/Common.php(1250): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 /opt/lampp/htdocs/yudici/app/Controllers/Pages.php(18): view('layout/header')
+#5 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(948): App\Controllers\Pages->about()
+#6 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/yudici/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-27 12:01:42 --> Undefined variable: title
+#0 /opt/lampp/htdocs/yudici/app/Views/layout/template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 11, Array)
+#1 /opt/lampp/htdocs/yudici/system/View/View.php(220): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/yudici/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/yudici/system/View/View.php(236): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 /opt/lampp/htdocs/yudici/system/Common.php(1250): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 /opt/lampp/htdocs/yudici/app/Controllers/Pages.php(12): view('pages/home')
+#6 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(948): App\Controllers\Pages->index()
+#7 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/yudici/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-27 12:09:00 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/yudici/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('pages/about')
+#1 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('pages/about')
+#2 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/yudici/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 12:10:22 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/yudici/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('pages/about')
+#1 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(828): CodeIgniter\Router\Router->handle('pages/about')
+#2 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/yudici/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 12:34:04 --> Invalid file: komik/home.php
+#0 /opt/lampp/htdocs/yudici/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik/home.php')
+#1 /opt/lampp/htdocs/yudici/system/Common.php(1250): CodeIgniter\View\View->render('komik/home', Array, true)
+#2 /opt/lampp/htdocs/yudici/app/Controllers/Komik.php(12): view('komik/home', Array)
+#3 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(948): App\Controllers\Komik->index()
+#4 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/yudici/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-27 12:35:25 --> Invalid file: komik/home.php
+#0 /opt/lampp/htdocs/yudici/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('komik/home.php')
+#1 /opt/lampp/htdocs/yudici/system/Common.php(1250): CodeIgniter\View\View->render('komik/home', Array, true)
+#2 /opt/lampp/htdocs/yudici/app/Controllers/Komik.php(12): view('komik/home', Array)
+#3 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(948): App\Controllers\Komik->index()
+#4 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(444): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 /opt/lampp/htdocs/yudici/system/CodeIgniter.php(344): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/yudici/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
