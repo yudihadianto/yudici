@@ -10,3 +10,9 @@ CRITICAL - 2021-04-02 16:00:35 --> The framework needs the following extension(s
 #2 C:\xampp\htdocs\yudici\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
 #3 C:\xampp\htdocs\yudici\public\index.php(27): require('C:\\xampp\\htdocs...')
 #4 {main}
+CRITICAL - 2021-04-02 16:05:14 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\yudici\system\CodeIgniter.php(234): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\yudici\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\yudici\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\yudici\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
